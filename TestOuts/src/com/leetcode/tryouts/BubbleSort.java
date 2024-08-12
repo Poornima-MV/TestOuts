@@ -30,6 +30,9 @@ public class BubbleSort {
 		}
 		
 		Arrays.stream(integerList).forEach(x -> System.out.println(x));
+		StringBuilder sb = new StringBuilder();
+		Arrays.stream(stringArgs).forEach( x -> sb.append(x));
+		System.out.println(sb);
 	}
 
 }
